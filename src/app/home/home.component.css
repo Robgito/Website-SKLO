@@ -1,0 +1,5 @@
+#backgroundVoetbalveld {
+  background-image: url("/assets/images/achtergrond.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
