@@ -1,0 +1,10 @@
+<div class="pt-5 mt-5"></div>
+
+<div *ngIf="loading">Loading posts...</div>
+
+<div *ngIf="!loading">
+    <div *ngFor="let post of posts">
+        <h3>{{ post.title }}</h3>
+        <div [innerHTML]="post.content"></div>
+    </div>
+</div>
